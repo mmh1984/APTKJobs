@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="News ID"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ee1e1e" />
+
+        <TextView
+            android:id="@+id/newsid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TextView"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Subject:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ee1e1e" />
+
+        <TextView
+            android:id="@+id/newstitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TextView"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Date:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ee1e1e" />
+
+        <TextView
+            android:id="@+id/newsdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TextView"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Venue:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ee1e1e" />
+
+        <TextView
+            android:id="@+id/newsvenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TextView"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Venue Address:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ee1e1e" />
+
+        <TextView
+            android:id="@+id/newsvadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TextView"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Description"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ee1e1e" />
+
+        <TextView
+            android:id="@+id/newsDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TextView"
+            android:textStyle="bold" />
+
+		<Space
+		    android:layout_width="match_parent"
+		    android:layout_height="20dp" />
+	
+		<Button
+		    android:id="@+id/btndeletenews"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="right"
+		    android:text="delete" />
+		
+		<Space
+		    android:layout_width="match_parent"
+		    android:layout_height="20dp" />
+    </LinearLayout>
+
+</ScrollView>

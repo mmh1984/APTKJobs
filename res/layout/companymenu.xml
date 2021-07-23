@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgcompany"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:src="@drawable/noimage" />
+
+    <Button
+        android:id="@+id/btnchange"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Change" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp" >
+                
+             <ImageButton
+                 android:id="@+id/imageBtnProfile"
+                 android:layout_width="80dp"
+                 android:layout_height="80dp"
+                 android:layout_marginBottom="5dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@drawable/profile" />
+             
+               <ImageButton
+                   android:id="@+id/imageBtnPost"
+                   android:layout_width="80dp"
+                   android:layout_height="80dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/post" />
+
+ 			<ImageButton
+ 			    android:id="@+id/imageBtnInbox"
+ 			    android:layout_width="80dp"
+ 			    android:layout_height="80dp"
+ 			    android:layout_marginBottom="5dp"
+ 			    android:layout_marginRight="10dp"
+ 			    android:background="@drawable/inbox" />
+               
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal" >
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+           
+               <ImageButton
+                   android:id="@+id/imageBtnView"
+                   android:layout_width="80dp"
+                   android:layout_height="80dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/view" />
+               
+                  <ImageButton
+                      android:id="@+id/imageBtnNews"
+                      android:layout_width="80dp"
+                      android:layout_height="80dp"
+                      android:layout_marginBottom="5dp"
+                      android:layout_marginRight="10dp"
+                      android:background="@drawable/news" />
+                  
+                     <ImageButton
+                         android:id="@+id/imageBtnLogout"
+                         android:layout_width="80dp"
+                         android:layout_height="80dp"
+                         android:layout_marginBottom="20dp"
+                         android:layout_marginRight="10dp"
+                         android:background="@drawable/logout" />
+              
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/op1" android:title="Sign out"></item>
+	<item android:id="@+id/op2" android:title="Edit Profile"></item>
+	<item android:id="@+id/op3" android:title="Inbox"></item>
+</menu>

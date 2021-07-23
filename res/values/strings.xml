@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">APTK</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="signup">
+        <item name="select">Select Type</item>
+        <item name="jobseeker">Job Seeker</item>
+        <item name="employer">Employer</item>
+    </string-array>
+    
+     <string-array name="gender">
+        <item name="Male">Male</item>
+        <item name="Female">Female</item>
+      
+    </string-array>
+    
+       <string-array name="race">
+        <item name="Malay">Malay</item>
+        <item name="Chinese">Chinese</item>
+        <item name="Indian">Indian</item>
+        <item name="Caucasian">Caucasian</item>
+        <item name="Other">Other</item>
+      
+      
+    </string-array>
+    
+        
+    
+       <string-array name="religion">
+        <item name="Islam">Islam</item>
+        <item name="Christian">Christian</item>
+        <item name="Hindu">Hindu</item>
+        <item name="Buddhist">Buddhist</item>
+        <item name="Other">Other</item>
+      
+      
+    </string-array>
+    
+        <string-array name="qualification">
+        <item name="0level1">1 to 3 O level</item>
+        <item name="0level1">4 above O level</item>
+        <item name="Alevel">A level (1 above)</item>
+        <item name="PND">PND</item>
+        <item name="ND">ND</item>
+        <item name="HNC">HNC</item>
+        <item name="HND">HND</item>
+        <item name="Degree">Degree</item>
+        <item name="Masters">Masters</item>
+        <item name="Other">Other</item>
+      
+    </string-array>
+    
+        
+          
+    
+        <string-array name="IC">
+      	 <item>Yellow</item>
+     	 <item>Green</item>
+     	 <item>Purple</item>
+     	 <item>Red</item>
+    </string-array>
+    
+        
+        <string-array name="loginas" >
+            
+            <item>Applicant</item>
+            <item>Company</item>
+        </string-array>
+        
+        <string-array name="jobtype" >
+            
+            <item>Full-Time</item>
+            <item>Part-Time</item>
+        </string-array>
+</resources>

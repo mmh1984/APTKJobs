@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Post a Job"
+            android:textColor="#ee1e1e"
+            android:textSize="18sp" />
+        
+          <TextView
+            android:id="@+id/vrefno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="REFNO"
+            android:textColor="#ee1e1e"
+            android:textSize="14sp" />
+
+          <EditText
+              android:id="@+id/vjobtitle"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="5dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:layout_marginTop="5dp"
+              android:background="@drawable/text_bg"
+              android:ems="10"
+              android:hint="Job title"
+              android:inputType="text"
+              android:paddingLeft="10dp"
+              android:textColor="#000000"
+              android:textColorHint="#807a7a"
+              android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/vjobdesc"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="3.39"
+           android:background="@drawable/text_bg"
+            android:ems="10"
+            android:hint="job description"
+            android:inputType="textMultiLine"
+            android:maxLines="10"
+             android:paddingLeft="10dp"
+            android:scrollHorizontally="false"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/vtextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Job Type"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Spinner
+            android:id="@+id/vjobtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/spinner_background"
+            android:entries="@array/jobtype" />
+
+        <TextView
+            android:id="@+id/vtextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Date posted"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/vstartdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/text_bg"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="dd/mm/yyyy"
+            android:inputType="text"
+             android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#807a7a"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/vtextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="End Date"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/venddate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+           android:background="@drawable/text_bg"
+            android:ems="10"
+            android:hint="dd/mm/yyyy"
+            android:inputType="text"
+             android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#807a7a"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/vtextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Requirements"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Spinner
+            android:id="@+id/vjobqualification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/spinner_background"
+            android:entries="@array/qualification" />
+
+        <TextView
+            android:id="@+id/vtextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Salary"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/vsalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/text_bg"
+            android:ems="10"
+            android:hint="$0.00"
+            android:inputType="number"
+             android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#807a7a"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </EditText>
+        
+        <Button
+            android:id="@+id/cUpdate"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="Update"
+            android:textSize="15sp" />
+		<Button
+            android:id="@+id/cDelete"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="Delete"
+            android:textSize="15sp" />
+		
+		  <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+</ScrollView>
